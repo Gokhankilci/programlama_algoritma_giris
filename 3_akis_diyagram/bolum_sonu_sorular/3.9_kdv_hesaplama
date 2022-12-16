@@ -1,0 +1,5 @@
+ürün=0
+ürün_fiyatı=input("ürün fiyatını giriniz : ")
+KDV_değeri=input("KDV değerini giriniz(%) : ")
+KDV_ekli_hali=int(ürün_fiyatı)+(int(ürün_fiyatı)*int(KDV_değeri)/100)
+print("kdvli değer :",KDV_ekli_hali)
